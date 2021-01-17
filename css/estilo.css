@@ -2,23 +2,23 @@
     margin: 0px; padding: 0px;
 }
 body{
-    background-image: url("../img/fundo.jpg");
-    background-position: 50% 70%;
+    background-image: url("../img/fundo2.jpg");
+    background-position: 50% 30%;
     width: 100%;
     color: white;
     font-family: arial;
 }
 input {
     display: block;
-    height: 55px;
+    height: 40px;
     width: 400px;
     margin: 10px;
     border-radius: 30px;
-    border: 1px solid black;
+    border: 2px solid white;
     font-size: 16pt;
     padding: 8px 10px;
-    border: none;
-    background-color: rgba(255,255,255,0.09);
+    
+    background-color: rgba(22, 11, 11, 0.356);
     color: white;
     outline: none;
 }
@@ -39,6 +39,7 @@ a{
     text-decoration: none;
     text-align: center;
     display: block;
+    padding: 10px;
 }
 a:hover{
     text-decoration: underline;
@@ -48,6 +49,11 @@ input[type=submit]{
     background-color: #ff0066;
     border: none;
     cursor: pointer;
+    height: 60px;
+    width: 422px;
+
+    
+    
 }
 
     ::-webkit-input-placeholder{
