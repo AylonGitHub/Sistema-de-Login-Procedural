@@ -36,7 +36,7 @@
        // verificar se esta preenchido
        if(!empty($nome) && !empty($telefone) && !empty($email) && !empty($senha) && !empty($confirmarSenha))
        {
-           $u->conectar("projeto_login", "localhost", "aylon", "123");
+           $u->conectar("projeto_login", "localhost", "root", "");
            if($u->msgErro == "")// se esta tudo ok
            {
 

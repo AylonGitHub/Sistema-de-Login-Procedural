@@ -32,15 +32,16 @@
         // verificar se esta preenchido
         if(!empty($email) && !empty($senha))
         {
-            $u->conectar("projeto_login", "localhost", "aylon", "123");
+            $u->conectar("projeto_login", "localhost", "root", "");
             if($u->msgErro == "")
             {
             if($u->logar($email,$senha))
-            {
+            
+            {   
                  header("location:AreaPrivada.php");
             }
             else
-            {
+            {   
                 ?>
                 <div class="msg-erro">
                 Email e/ou senha estão incorretos!

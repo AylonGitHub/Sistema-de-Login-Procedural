@@ -11,6 +11,6 @@
 ?>
 
 
-SEJA BEMMM VINDOOOO!!
+SEJA BEMMM VINDA IDETEEEE!!
 
 <a href="sair.php">Sair</a>
